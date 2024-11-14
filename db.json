@@ -1,0 +1,28 @@
+{
+  "expenses": [
+    {
+      "id": "ef1d",
+      "description": "Mac",
+      "amount": 100,
+      "category": "utilities"
+    },
+    {
+      "id": "926e",
+      "description": "eggs",
+      "amount": 20,
+      "category": "food"
+    },
+    {
+      "id": "8aaf",
+      "description": "ticket",
+      "amount": 100,
+      "category": "entertainment"
+    },
+    {
+      "id": "8c49",
+      "description": "phone",
+      "amount": 500,
+      "category": "utilities"
+    }
+  ]
+}
