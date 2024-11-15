@@ -9,6 +9,9 @@ const Addexpense = ({ addExpense }) => {
       <form
         onSubmit={(event) => {
           event.preventDefault();
+          if(!description || !amount || !category) return
+
+          
           addExpense({
             description,
             amount,

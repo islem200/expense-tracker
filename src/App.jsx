@@ -35,10 +35,18 @@ const App = () => {
     setData([...data, response.data]);
 
   };
+
+  const deleteExpense = async (id) =>{
+    //update Database
+    axios.delete(`http://localhost:5000/expenses/${id}`);
+
+    //update ui (state)
+    setData(data.filter((item)=> item.id !== id))
+  }
   return (
     <div className='container' style={{maxWidth: '900px'}}>
-      <Addexpense addExpense={addExpense}/>
-      <Expenses data={data}/>
+      <Addexpense  addExpense={addExpense}/>
+      <Expenses deleteExpense = {deleteExpense} data={data}/>
       
     </div>
   )

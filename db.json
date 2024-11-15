@@ -1,28 +1,22 @@
 {
   "expenses": [
     {
-      "id": "ef1d",
+      "id": "899a",
       "description": "Mac",
       "amount": 100,
       "category": "utilities"
     },
     {
-      "id": "926e",
-      "description": "eggs",
-      "amount": 20,
+      "id": "159e",
+      "description": "apple",
+      "amount": 50,
       "category": "food"
     },
     {
-      "id": "8aaf",
-      "description": "ticket",
-      "amount": 100,
-      "category": "entertainment"
-    },
-    {
-      "id": "8c49",
-      "description": "phone",
-      "amount": 500,
-      "category": "utilities"
+      "id": "638f",
+      "description": "eggs",
+      "amount": 5,
+      "category": "food"
     }
   ]
 }
